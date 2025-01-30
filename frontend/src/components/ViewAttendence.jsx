@@ -16,7 +16,7 @@ const ViewAttendance = () => {
   return (
     <div>
       <h1>View Attendance</h1>
-      <table  border="1">
+      <table  >
         <thead>
           <tr>
             <th>Name</th>
