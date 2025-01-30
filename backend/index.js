@@ -125,6 +125,6 @@ app.get("/attendance", async (req, res) => {
         res.status(500).send("Error fetching attendance");
     }
 });
-app.listen(3001, () => {
+app.listen(3000, () => {
     console.log("Server Started on Port 3001");
 });

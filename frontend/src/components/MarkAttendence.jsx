@@ -22,7 +22,7 @@ const MarkAttendence = () => {
     };
     const Submit = async () => {
         try {
-            const res = await axios.post('http://localhost:3001/submit', { students })
+            const res = await axios.post('http://localhost:3000/submit', { students })
             alert(res.data)
         } catch (err) {
             console.log(err)

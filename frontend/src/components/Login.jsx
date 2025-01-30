@@ -11,7 +11,7 @@ const Login=()=>{
         console.log("Event triggered")
         try{
              
-        const req= await axios.post('http://localhost:3001/login',{
+        const req= await axios.post('http://localhost:3000/login',{
             
             email:email,
            password: password
