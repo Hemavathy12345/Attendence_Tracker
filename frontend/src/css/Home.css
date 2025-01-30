@@ -1,0 +1,39 @@
+.home-section {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.home-heading {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.classes-container {
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.class-box {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #88cfff;
+    opacity:60%;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.class-box:hover {
+    background-color: #2980b9;
+}
