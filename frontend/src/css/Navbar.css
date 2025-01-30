@@ -1,0 +1,27 @@
+ol{
+    display: flex;
+    justify-content: space-between;
+    list-style-type:  none;;
+    text-decoration:none;
+    margin: 0px;
+    padding-left :180;
+    padding-right: 90px;
+    background-color: #00c8ff;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    height: 50px;
+    align-items: center;
+    font-weight: bold;
+}
+.link{
+    text-decoration: none;
+    color: rgb(253, 252, 252);
+    padding: 7px;
+}
+.link:hover{
+    color: rgb(9, 9, 8);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    
+}
+

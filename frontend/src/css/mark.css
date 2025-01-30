@@ -1,0 +1,30 @@
+  div{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  table{
+    margin: auto;
+    margin-top: 20px;
+    width: 100%;
+  }
+  th, td {
+    padding: 8px;
+    text-align: center;
+  }
+  th {
+    background-color: #ffffff;
+    color: #0047cb;
+    text-align: center;
+  }
+td button{
+    height: 35px;
+    width: 100px;
+}
+div .submit{
+    height: 35px;
+    width: 100px;
+}
+.btn{
+    padding: 30px;
+}
