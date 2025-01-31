@@ -16,8 +16,6 @@ const ViewAttendance = () => {
     };
     fetchAttendance();
   }, []);
-
-  // Filter attendance based on search term
   const filteredAttendance = attendance.filter((record) =>
     record.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
@@ -25,8 +23,6 @@ const ViewAttendance = () => {
   return (
     <div>
       <h1>View Attendance</h1>
-
-      {/* Search Input */}
       <input
         type="text"
         placeholder="Search by name..."
@@ -40,8 +36,6 @@ const ViewAttendance = () => {
           border: "1px solid #ccc"
         }}
       />
-
-      {/* Attendance Table */}
       <table border="1" cellPadding="10">
         <thead>
           <tr>
